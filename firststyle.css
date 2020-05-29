@@ -1,0 +1,81 @@
+@font-face{
+            font-family:asian;
+            src: url("../fonts/headerfont.ttf")
+}
+
+@font-face{
+      font-family:moonglade;
+      src: url("../fonts/moonglade.ttf")
+}
+
+
+
+body{
+    background-color:#85997a;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height:1.6em;
+
+}
+
+header{
+    background-image:url("../images/nav.jpg");
+    backgroud-color:#556B2F;
+    width:100%;
+
+}
+
+ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    overflow: hidden;
+
+}
+
+li{
+    display: inline;
+    float: right;
+    border-right: 1px solid #bbb;
+    border-radius:;
+}
+
+li a{
+    text-decoration:none;
+    display:block;
+    color:white;
+    text-align: center;
+    padding:14px 16px ;
+
+}
+
+.container li:first-child{
+    color:black;
+    font-size:50px;
+    float:left;
+    border-right: none;
+    background-color:none;
+    font-family: asian;
+
+}
+
+.container li:nth-child(5){
+    border-left:1px solid #bbb;
+}
+
+li a:hover{
+    color:#867979;
+    background-color:;
+}
+
+li a:active{
+    background-color:#fff;
+}
+
+li:hover{
+    background
+}
+
+.inactiveLink {
+   pointer-events: none;
+   cursor: default;
